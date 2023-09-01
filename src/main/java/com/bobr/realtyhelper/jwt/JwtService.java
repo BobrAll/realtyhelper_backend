@@ -1,4 +1,4 @@
-package com.bobr.realtyhelper.config;
+package com.bobr.realtyhelper.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

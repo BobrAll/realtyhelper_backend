@@ -1,13 +1,12 @@
 package com.bobr.realtyhelper.auth;
 
-import com.bobr.realtyhelper.config.JwtService;
+import com.bobr.realtyhelper.jwt.JwtService;
 import com.bobr.realtyhelper.user.AppUser;
 import com.bobr.realtyhelper.user.Role;
 import com.bobr.realtyhelper.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
